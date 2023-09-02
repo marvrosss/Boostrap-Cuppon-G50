@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: #28A745;
+
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid img{
+   width: 150px;
+}
+
+#navbarNav{
+    text-align: center;
+    
+}
+
+h1 h2 h3 a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h4 h5 h6 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+.list-group-flush{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row{
+    gap: 70px;
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.precio-oferta{
+    color: #28A745;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.ubicacion{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+
+}
+
+.formulario{
+    text-align: center;
+    background-color: #28A745;
+    padding: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+footer img{
+    width: 150px;
+}
